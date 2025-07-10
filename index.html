@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LottoIQ – Smarter Lottery Tools</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ✅ Welcome Section -->
+  <section id="hero">
+    <h1>Welcome to LottoIQ</h1>
+    <p>AI-powered lottery predictions built on real data. Smart, tested, and built for players who want an edge.</p>
+  </section>
+
+  <!-- ✅ About Us -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>LottoIQ gives real players a smarter way to play. We track results, watch patterns, and keep it simple — no gimmicks, just data. Whether you're chasing $40 or $40,000, LottoIQ is built to improve your odds over time, not waste your money.</p>
+  </section>
+
+  <!-- ✅ Waitlist Section -->
+  <section id="waitlist">
+    <h2>Join the Waitlist</h2>
+    <form id="waitlistForm">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <label for="state">Which state do you play in?</label>
+      <select id="state" name="state" required>
+        <option value="" disabled selected>Select your state</option>
+        <option value="GA">Georgia (Live)</option>
+        <option value="FL">Florida (Live)</option>
+        <option value="NC">North Carolina (Coming Soon)</option>
+        <option value="OH">Ohio (Coming Soon)</option>
+        <option value="IL">Illinois (Queued)</option>
+        <option value="PA">Pennsylvania (Queued)</option>
+        <option value="VA">Virginia (Queued)</option>
+        <option value="MI">Michigan (In Development)</option>
+        <option value="MD">Maryland (In Development)</option>
+        <option value="NJ">New Jersey (In Development)</option>
+        <option value="MO">Missouri (In Development)</option>
+        <option value="TX">Texas (In Development)</option>
+        <option value="NY">New York (In Development)</option>
+        <option value="CT">Connecticut (Pending)</option>
+        <option value="MA">Massachusetts (Pending)</option>
+        <option value="MN">Minnesota (Pending)</option>
+        <option value="WI">Wisconsin (Pending)</option>
+        <option value="OR">Oregon (Pending)</option>
+        <option value="AR">Arkansas (Pending)</option>
+      </select>
+      <label><input type="checkbox" name="multi-state" /> I'm interested in more than one state</label>
+      <button type="submit">Join</button>
+    </form>
+  </section>
+
+  <!-- ✅ Deployment Timeline -->
+  <section id="deployment-history">
+    <h2>Deployment Timeline</h2>
+    <ul>
+      <li><strong>Live:</strong> Georgia, Florida</li>
+      <li><strong>Coming Soon:</strong> North Carolina, Ohio</li>
+      <li><strong>In Queue:</strong> Illinois, Pennsylvania, Virginia, Texas</li>
+      <li><strong>In Development:</strong> Michigan, Maryland, New Jersey, Missouri, New York</li>
+      <li><strong>Pending:</strong> Connecticut, Massachusetts, Minnesota, Wisconsin, Oregon, Arkansas</li>
+    </ul>
+  </section>
+
+  <!-- ✅ Results Section -->
+  <section id="results">
+    <h2>Recent Results</h2>
+    <iframe src="results.html" width="100%" height="500px" frameborder="0"></iframe>
+  </section>
+
+</body>
+</html>
